@@ -1,5 +1,4 @@
 #Node & npm
-node_module/
 npm-debug.log*
 
 #Build Artifacts
