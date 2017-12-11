@@ -1,0 +1,20 @@
+{
+  "source": {
+    "excludePattern": "bundle\\.js",
+    "include": [
+      "project_name/static/js"
+    ]
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "docs/js"
+  },
+  {
+   "plugins": ["node_modules/jsdoc-babel"],
+   "source": {
+     "includePattern": ".+\\.jsx?$",
+     /* ... */
+   },
+   /* ... */
+  }
+}
