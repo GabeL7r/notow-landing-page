@@ -1,0 +1,12 @@
+{
+  "tests": "./testAcceptance/*_test.js",
+  "timeout": 10000,
+  "output": "./testAcceptance/testResults",
+  "helpers": {},
+  "include": {
+    "I": "./testAcceptance/steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "piab-ui"
+}

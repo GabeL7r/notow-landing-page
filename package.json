@@ -6,24 +6,27 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.7",
-    "eslint": "^4.12.1",
+    "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.5",
+    "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
     "jsdoc": "^3.5.5",
     "jsdoc-babel": "^0.3.0",
-    "webpack": "^3.9.1",
-    "webpack-dev-server": "^2.9.5"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   },
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack"
   },
   "dependencies": {
+    "code-point-at": "^1.1.0",
+    "is-fullwidth-code-point": "^2.0.0",
+    "raven-js": "^3.21.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
