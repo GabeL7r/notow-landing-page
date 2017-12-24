@@ -58,3 +58,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+#Test ignore
+testAcceptance/testResults/
