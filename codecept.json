@@ -2,17 +2,11 @@
   "tests": "./testAcceptance/*_test.js",
   "timeout": 10000,
   "output": "./testAcceptance/testResults",
-  "helpers": {
-    "Nightmare": {
-      "url": "http://localhost:8080",
-      "show": false,
-      "restart": false
-    }
-  },
+  "helpers": {},
   "include": {
     "I": "./testAcceptance/steps_file.js"
   },
   "bootstrap": false,
   "mocha": {},
-  "name": "piab-ui-starter"
+  "name": "piab-ui"
 }
