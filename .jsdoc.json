@@ -9,12 +9,8 @@
     "recurse": true,
     "destination": "docs/js"
   },
-  {
    "plugins": ["node_modules/jsdoc-babel"],
    "source": {
-     "includePattern": ".+\\.jsx?$",
-     /* ... */
-   },
-   /* ... */
-  }
+     "includePattern": ".+\\.jsx?$"
+   }
 }
