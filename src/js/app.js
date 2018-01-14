@@ -34,10 +34,11 @@ export default class Hello extends Component {
     );
   }
 }
-//  above saving for posterity in case we need to go back to stateful
 
 render(<Hello />, document.getElementById('app'));
+//  above saving for posterity in case we need to go back to stateful
 
+//  below is stateless
 // const Hello = (
 //   <div>
 //     Hello from react
@@ -49,3 +50,4 @@ render(<Hello />, document.getElementById('app'));
 // export default Hello;
 //
 // ReactDOM.render(<Hello />, document.getElementById('app'));
+//  above is stateless

@@ -28,14 +28,16 @@
     "nightmare": "^2.10.0",
     "nightmare-upload": "^0.1.1",
     "react-test-renderer": "^16.2.0",
+    "validate-commit-msg": "^2.14.0",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
   },
   "scripts": {
     "build": "webpack",
+    "cm": "git cz",
+    "commitmsg": "validate-commit-msg",
     "dev": "webpack-dev-server",
     "lint:staged": "lint-staged",
-    "cm": "git cz",
     "precommit": "npm run lint:staged",
     "prepush": "npm test",
     "test": "jest"
@@ -64,6 +66,24 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100,
+      "subjectPattern": "^[A-Z]+-[0-9]+ - .*",
+      "subjectPatternErrorMsg": "Subject must be in format 'BranchName(This should be repo-ticketNumber) - Commit message'",
+      "helpMessage": ""
     }
   }
 }
