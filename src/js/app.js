@@ -9,7 +9,7 @@ import { render } from 'react-dom';
 //  above is stateless
 
 import Raven from 'raven-js';
-import '../css/style.css';
+import '../css/style.scss';
 import keenImage from '../assets/keen.png';
 
 Raven.config('https://05de4eb56d71407b838cf481f7f28939@sentry.io/260297').install();

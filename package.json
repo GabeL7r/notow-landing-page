@@ -27,9 +27,11 @@
     "lint-staged": "^6.0.0",
     "nightmare": "^2.10.0",
     "nightmare-upload": "^0.1.1",
+    "node-sass": "^4.7.2",
     "react-test-renderer": "^16.2.0",
+    "sass-loader": "^6.0.6",
     "validate-commit-msg": "^2.14.0",
-    "webpack": "^3.10.0",
+    "webpack": "^3.11.0",
     "webpack-dev-server": "^2.9.7"
   },
   "scripts": {
