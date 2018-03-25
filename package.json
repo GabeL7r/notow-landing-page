@@ -63,7 +63,8 @@
     "is-fullwidth-code-point": "^2.0.0",
     "raven-js": "^3.21.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.3"
   },
   "config": {
     "commitizen": {
