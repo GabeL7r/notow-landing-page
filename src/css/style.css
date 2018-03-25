@@ -10,9 +10,9 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  padding: 1rem;
+  padding-top: 1rem;
 }
 
 .main_sidebar {
