@@ -34,7 +34,7 @@ export default class Hello extends Component {
 
         <div className="main_content">
           <h1 className="main_header">NoTow</h1>
-          <h2 className="main_subheader">Deciper Parking Signs</h2>
+          <h2 className="main_subheader">Decipher Parking Signs</h2>
           <h3 className="main_subheader-two">Park Safely Anywhere</h3>
         </div>
 
