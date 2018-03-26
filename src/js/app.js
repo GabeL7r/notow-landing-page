@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 //  above is for stateful
 
+import SignupForm from './components/SignupForm';
+
 //  below is stateless
 //  import React from 'react';
 //  import ReactDOM from 'react-dom';
@@ -36,6 +38,7 @@ export default class Hello extends Component {
           <h1 className="main_header">NoTow</h1>
           <h2 className="main_subheader">Decipher Parking Signs</h2>
           <h3 className="main_subheader-two">Park Safely Anywhere</h3>
+          <SignupForm />
         </div>
 
       </div>

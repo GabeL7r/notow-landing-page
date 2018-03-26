@@ -1,0 +1,20 @@
+.signupform__form {
+  margin-top: 2rem;
+}
+
+.signupform__input {
+  box-shadow: none;
+  border: none;
+  padding: 0.5rem;
+  width: 15rem;
+  height: 2rem;
+  font-size: 1.2rem;
+}
+
+.signupform__button {
+  margin-left: 0.5rem;
+  padding: 0.5rem;  
+  background-color: #8bd1b9;
+  width: 6rem;
+  height: 2rem;
+}
